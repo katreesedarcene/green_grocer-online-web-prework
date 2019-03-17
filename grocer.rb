@@ -49,8 +49,6 @@ def checkout(cart, coupons)
   total = 0 
   clearance_cart.each do |name, properties|
     total += properties[:price]
-    binding.pry
-  
     
   end
     
